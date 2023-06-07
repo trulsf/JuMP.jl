@@ -12,6 +12,12 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
+[weakdeps]
+DynamicQuantities = "06fc5a27-2a28-4c7c-a15d-362465fb6821"
+
+[extensions]
+JuMPDynamicQuantitiesExt = "DynamicQuantities"
+
 [compat]
 MathOptInterface = "1.14"
 MutableArithmetics = "1"
