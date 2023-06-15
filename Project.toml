@@ -23,6 +23,7 @@ MathOptInterface = "1.14"
 MutableArithmetics = "1"
 OrderedCollections = "1"
 SnoopPrecompile = "1"
+DynamicQuantities = "0.4"
 julia = "1.6"
 
 [extras]
